@@ -3,6 +3,8 @@ import mediapipe as mp
 import json
 import numpy as np
 import os
+import sys
+import shutil
 
 # Inicializar BlazePose
 mp_pose = mp.solutions.pose
@@ -104,8 +106,17 @@ def create_directory(directory):
     if not os.path.exists(directory):
         os.makedirs(directory)
 
-def process_video(video_path):
+def clear_output_directory():
+    # Eliminar directorios y archivos previos si existen
+    if os.path.exists('./output'):
+        shutil.rmtree('./output')
+
+def process_video(video_path, test_mode):
     global Dx_left_s, Dy_left_s, Dx_right_s, Dy_right_s, left_rects_s, right_rects_s
+    
+    if test_mode:
+        clear_output_directory()  # Limpiar la salida antes de generar nuevos archivos
+    
     cap = cv2.VideoCapture(video_path)
     frame_width = int(cap.get(3))
     frame_height = int(cap.get(4))
@@ -119,11 +130,12 @@ def process_video(video_path):
     
     frames_info = []
 
-    output_directory_frames = './output/frames'
-    create_directory(output_directory_frames)
-    
+    if test_mode:
+        output_directory_frames = './output/frames'
+        create_directory(output_directory_frames)
+        out = cv2.VideoWriter('./output/output.mp4', cv2.VideoWriter_fourcc(*'mp4v'), fps, (frame_width, frame_height))
+
     frame_count = 0
-    out = cv2.VideoWriter('./output/output.mp4', cv2.VideoWriter_fourcc(*'mp4v'), fps, (frame_width, frame_height))
     steps = 0
     frame_idx = 0
     left_points = []
@@ -136,28 +148,59 @@ def process_video(video_path):
 
         frame_rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
         results = pose.process(frame_rgb)
-        stepDetection = True
-        stepSide = 'Both'
+        stepDetection = False
+        stepSide = 'None'
+        left_position = None
+        right_position = None
+
         if results.pose_landmarks:
+            # Puntos del pie izquierdo
+            left_heel = results.pose_landmarks.landmark[mp_pose.PoseLandmark.LEFT_HEEL]
+            left_foot_index = results.pose_landmarks.landmark[mp_pose.PoseLandmark.LEFT_FOOT_INDEX]
             left_ankle = results.pose_landmarks.landmark[mp_pose.PoseLandmark.LEFT_ANKLE]
+            
+            # Puntos del pie derecho
+            right_heel = results.pose_landmarks.landmark[mp_pose.PoseLandmark.RIGHT_HEEL]
+            right_foot_index = results.pose_landmarks.landmark[mp_pose.PoseLandmark.RIGHT_FOOT_INDEX]
             right_ankle = results.pose_landmarks.landmark[mp_pose.PoseLandmark.RIGHT_ANKLE]
 
-            left_point = (int(left_ankle.x * frame_width), int(left_ankle.y * frame_height))
-            right_point = (int(right_ankle.x * frame_width), int(right_ankle.y * frame_height))
+            # Coordenadas del pie izquierdo
+            left_heel_point = (int(left_heel.x * frame_width), int(left_heel.y * frame_height))
+            left_foot_index_point = (int(left_foot_index.x * frame_width), int(left_foot_index.y * frame_height))
+            left_ankle_point = (int(left_ankle.x * frame_width), int(left_ankle.y * frame_height))
+            
+            # Coordenadas del pie derecho
+            right_heel_point = (int(right_heel.x * frame_width), int(right_heel.y * frame_height))
+            right_foot_index_point = (int(right_foot_index.x * frame_width), int(right_foot_index.y * frame_height))
+            right_ankle_point = (int(right_ankle.x * frame_width), int(right_ankle.y * frame_height))
+
+            # Calcular el punto central (promedio) de los tres puntos para cada pie
+            left_center_point = (
+                int((left_heel_point[0] + left_foot_index_point[0] + left_ankle_point[0]) / 3),
+                int((left_heel_point[1] + left_foot_index_point[1] + left_ankle_point[1]) / 3)
+            )
+            right_center_point = (
+                int((right_heel_point[0] + right_foot_index_point[0] + right_ankle_point[0]) / 3),
+                int((right_heel_point[1] + right_foot_index_point[1] + right_ankle_point[1]) / 3)
+            )
+
+            # Dibujar la superficie del pie izquierdo y derecho, se unen los tres puntos del pie (polígono)
+            left_foot_color = (255, 0, 255)  # Color morado por defecto
+            right_foot_color = (255, 0, 255)  # Color morado por defecto
 
             if frame_idx > 0:
-                dx_left = left_point[0] - left_points[-1][0]
-                dy_left = left_point[1] - left_points[-1][1]
-                dx_right = right_point[0] - right_points[-1][0]
-                dy_right = right_point[1] - right_points[-1][1]
+                dx_left = left_heel_point[0] - left_points[-1][0]
+                dy_left = left_heel_point[1] - left_points[-1][1]
+                dx_right = right_heel_point[0] - right_points[-1][0]
+                dy_right = right_heel_point[1] - right_points[-1][1]
 
                 Dx_left_s.append(dx_left)
                 Dy_left_s.append(dy_left)
                 Dx_right_s.append(dx_right)
                 Dy_right_s.append(dy_right)
                 
-                left_rects_s.append(left_point)
-                right_rects_s.append(right_point)
+                left_rects_s.append(left_heel_point)
+                right_rects_s.append(right_heel_point)
                 
                 smooth_displacement(frame_idx)
                 
@@ -166,53 +209,93 @@ def process_video(video_path):
 
                 if left_step and right_step:
                     stepSide = 'Both'
+                    stepDetection = True
                 elif left_step:
                     stepSide = 'Left'
+                    stepDetection = True
                 elif right_step:
                     stepSide = 'Right'
-                else:
-                    stepSide = 'None'
-
-                if left_step or right_step:
-                    steps += 1
                     stepDetection = True
-                    if left_step:
-                        cv2.circle(frame, left_point, 10, (0, 255, 0), -1)
-                    if right_step:
-                        cv2.circle(frame, right_point, 10, (0, 255, 0), -1)
-            left_points.append(left_point)
-            right_points.append(right_point)
 
-            mp_drawing.draw_landmarks(frame, results.pose_landmarks, mp_pose.POSE_CONNECTIONS)
+                if stepDetection:
+                    steps += 1
+                    if test_mode:
+                        # Cambiar el color de la superficie si se detecta una pisada
+                        left_foot_color = (0, 255, 0) if left_step else left_foot_color
+                        right_foot_color = (0, 255, 0) if right_step else right_foot_color
+
+            left_points.append(left_heel_point)
+            right_points.append(right_heel_point)
+
+            if test_mode:
+                left_foot_points = np.array([left_heel_point, left_foot_index_point, left_ankle_point], np.int32)
+                cv2.fillPoly(frame, [left_foot_points], color=left_foot_color)  # Color según la detección de pasos
+
+                right_foot_points = np.array([right_heel_point, right_foot_index_point, right_ankle_point], np.int32)
+                cv2.fillPoly(frame, [right_foot_points], color=right_foot_color)  # Color según la detección de pasos
+
+                # Dibujar el punto central (promedio) del pie izquierdo y derecho
+                cv2.circle(frame, left_center_point, 5, (255, 255, 0), -1)  # Color amarillo
+                cv2.circle(frame, right_center_point, 5, (255, 255, 0), -1)  # Color amarillo
+
+                mp_drawing.draw_landmarks(frame, results.pose_landmarks, mp_pose.POSE_CONNECTIONS)
         
-        if stepDetection:
-            cv2.putText(frame, f'Step Detected: {stepSide}', (50, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2, cv2.LINE_AA)
-        else:
-            cv2.putText(frame, 'No Step', (50, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2, cv2.LINE_AA)
+        if test_mode:
+            if stepDetection:
+                cv2.putText(frame, f'Step Detected: {stepSide}', (50, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2, cv2.LINE_AA)
+            else:
+                cv2.putText(frame, 'No Step', (50, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2, cv2.LINE_AA)
 
-        # Guardar cada frame en un archivo
-        frame_filename = os.path.join(output_directory_frames, f'frame_{frame_count:04d}.jpg')
-        cv2.imwrite(frame_filename, frame)
+            # Guardar cada frame en un archivo
+            frame_filename = os.path.join(output_directory_frames, f'frame_{frame_count:04d}.jpg')
+            cv2.imwrite(frame_filename, frame)
 
         frame_info = {
             'frame_index': frame_count,
-            'file_name': frame_filename,
             'stepDetection': stepDetection,
-            'stepSide': stepSide }
+            'stepSide': stepSide,
+            'left_position': {
+                'heel': left_heel_point,
+                'foot_index': left_foot_index_point,
+                'ankle': left_ankle_point,
+                'center': left_center_point
+            },
+            'right_position': {
+                'heel': right_heel_point,
+                'foot_index': right_foot_index_point,
+                'ankle': right_ankle_point,
+                'center': right_center_point
+            }
+        }
         frames_info.append(frame_info)
 
-        json_filename = './output/frames_info.json'
-        with open(json_filename, 'w') as json_file:
-            json.dump(frames_info, json_file, indent=4)
-
+        if test_mode:
+            out.write(frame)
         frame_count += 1
-        out.write(frame)
         frame_idx += 1
 
     cap.release()
-    out.release()
+
+    if test_mode:
+        out.release()
+
+    # Guardar el JSON con la información de los cuadros procesados
+    json_filename = './output/frames_info.json'
+    create_directory('./output')  # Asegurar que el directorio exista
+    with open(json_filename, 'w') as json_file:
+        json.dump(frames_info, json_file, indent=4)
 
     return frames_info  # Devolver la información de los cuadros procesados
 
-def main(video_path):
-    return process_video
+def main():
+    if len(sys.argv) < 2:
+        print("Usage: python script.py <video_path> [--test]")
+        sys.exit(1)
+
+    video_path = sys.argv[1]
+    test_mode = '--test' in sys.argv
+    frames_info = process_video(video_path, test_mode)
+    print("Finished processing video")
+
+if __name__ == "__main__":
+    main()

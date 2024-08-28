@@ -1,0 +1,4370 @@
+[
+    {
+        "frame_index": 0,
+        "file_name": "./output/frames/frame_0000.jpg",
+        "stepDetection": false,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 1,
+        "file_name": "./output/frames/frame_0001.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 2,
+        "file_name": "./output/frames/frame_0002.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 3,
+        "file_name": "./output/frames/frame_0003.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 4,
+        "file_name": "./output/frames/frame_0004.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 5,
+        "file_name": "./output/frames/frame_0005.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 6,
+        "file_name": "./output/frames/frame_0006.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 7,
+        "file_name": "./output/frames/frame_0007.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 8,
+        "file_name": "./output/frames/frame_0008.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 9,
+        "file_name": "./output/frames/frame_0009.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 10,
+        "file_name": "./output/frames/frame_0010.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 11,
+        "file_name": "./output/frames/frame_0011.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 12,
+        "file_name": "./output/frames/frame_0012.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 13,
+        "file_name": "./output/frames/frame_0013.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 14,
+        "file_name": "./output/frames/frame_0014.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 15,
+        "file_name": "./output/frames/frame_0015.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 16,
+        "file_name": "./output/frames/frame_0016.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 17,
+        "file_name": "./output/frames/frame_0017.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 18,
+        "file_name": "./output/frames/frame_0018.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 19,
+        "file_name": "./output/frames/frame_0019.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 20,
+        "file_name": "./output/frames/frame_0020.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 21,
+        "file_name": "./output/frames/frame_0021.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 22,
+        "file_name": "./output/frames/frame_0022.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 23,
+        "file_name": "./output/frames/frame_0023.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 24,
+        "file_name": "./output/frames/frame_0024.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 25,
+        "file_name": "./output/frames/frame_0025.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 26,
+        "file_name": "./output/frames/frame_0026.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 27,
+        "file_name": "./output/frames/frame_0027.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 28,
+        "file_name": "./output/frames/frame_0028.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 29,
+        "file_name": "./output/frames/frame_0029.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 30,
+        "file_name": "./output/frames/frame_0030.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 31,
+        "file_name": "./output/frames/frame_0031.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 32,
+        "file_name": "./output/frames/frame_0032.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 33,
+        "file_name": "./output/frames/frame_0033.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 34,
+        "file_name": "./output/frames/frame_0034.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 35,
+        "file_name": "./output/frames/frame_0035.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 36,
+        "file_name": "./output/frames/frame_0036.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 37,
+        "file_name": "./output/frames/frame_0037.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 38,
+        "file_name": "./output/frames/frame_0038.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 39,
+        "file_name": "./output/frames/frame_0039.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 40,
+        "file_name": "./output/frames/frame_0040.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 41,
+        "file_name": "./output/frames/frame_0041.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 42,
+        "file_name": "./output/frames/frame_0042.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 43,
+        "file_name": "./output/frames/frame_0043.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 44,
+        "file_name": "./output/frames/frame_0044.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 45,
+        "file_name": "./output/frames/frame_0045.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 46,
+        "file_name": "./output/frames/frame_0046.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 47,
+        "file_name": "./output/frames/frame_0047.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 48,
+        "file_name": "./output/frames/frame_0048.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 49,
+        "file_name": "./output/frames/frame_0049.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 50,
+        "file_name": "./output/frames/frame_0050.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 51,
+        "file_name": "./output/frames/frame_0051.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 52,
+        "file_name": "./output/frames/frame_0052.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 53,
+        "file_name": "./output/frames/frame_0053.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 54,
+        "file_name": "./output/frames/frame_0054.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 55,
+        "file_name": "./output/frames/frame_0055.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 56,
+        "file_name": "./output/frames/frame_0056.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 57,
+        "file_name": "./output/frames/frame_0057.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 58,
+        "file_name": "./output/frames/frame_0058.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 59,
+        "file_name": "./output/frames/frame_0059.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 60,
+        "file_name": "./output/frames/frame_0060.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 61,
+        "file_name": "./output/frames/frame_0061.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 62,
+        "file_name": "./output/frames/frame_0062.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 63,
+        "file_name": "./output/frames/frame_0063.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 64,
+        "file_name": "./output/frames/frame_0064.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 65,
+        "file_name": "./output/frames/frame_0065.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 66,
+        "file_name": "./output/frames/frame_0066.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 67,
+        "file_name": "./output/frames/frame_0067.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 68,
+        "file_name": "./output/frames/frame_0068.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 69,
+        "file_name": "./output/frames/frame_0069.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 70,
+        "file_name": "./output/frames/frame_0070.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 71,
+        "file_name": "./output/frames/frame_0071.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 72,
+        "file_name": "./output/frames/frame_0072.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 73,
+        "file_name": "./output/frames/frame_0073.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 74,
+        "file_name": "./output/frames/frame_0074.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 75,
+        "file_name": "./output/frames/frame_0075.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 76,
+        "file_name": "./output/frames/frame_0076.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 77,
+        "file_name": "./output/frames/frame_0077.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 78,
+        "file_name": "./output/frames/frame_0078.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 79,
+        "file_name": "./output/frames/frame_0079.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 80,
+        "file_name": "./output/frames/frame_0080.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 81,
+        "file_name": "./output/frames/frame_0081.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 82,
+        "file_name": "./output/frames/frame_0082.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 83,
+        "file_name": "./output/frames/frame_0083.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 84,
+        "file_name": "./output/frames/frame_0084.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 85,
+        "file_name": "./output/frames/frame_0085.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 86,
+        "file_name": "./output/frames/frame_0086.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 87,
+        "file_name": "./output/frames/frame_0087.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 88,
+        "file_name": "./output/frames/frame_0088.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 89,
+        "file_name": "./output/frames/frame_0089.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 90,
+        "file_name": "./output/frames/frame_0090.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 91,
+        "file_name": "./output/frames/frame_0091.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 92,
+        "file_name": "./output/frames/frame_0092.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 93,
+        "file_name": "./output/frames/frame_0093.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 94,
+        "file_name": "./output/frames/frame_0094.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 95,
+        "file_name": "./output/frames/frame_0095.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 96,
+        "file_name": "./output/frames/frame_0096.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 97,
+        "file_name": "./output/frames/frame_0097.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 98,
+        "file_name": "./output/frames/frame_0098.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 99,
+        "file_name": "./output/frames/frame_0099.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 100,
+        "file_name": "./output/frames/frame_0100.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 101,
+        "file_name": "./output/frames/frame_0101.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 102,
+        "file_name": "./output/frames/frame_0102.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 103,
+        "file_name": "./output/frames/frame_0103.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 104,
+        "file_name": "./output/frames/frame_0104.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 105,
+        "file_name": "./output/frames/frame_0105.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 106,
+        "file_name": "./output/frames/frame_0106.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 107,
+        "file_name": "./output/frames/frame_0107.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 108,
+        "file_name": "./output/frames/frame_0108.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 109,
+        "file_name": "./output/frames/frame_0109.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 110,
+        "file_name": "./output/frames/frame_0110.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 111,
+        "file_name": "./output/frames/frame_0111.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 112,
+        "file_name": "./output/frames/frame_0112.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 113,
+        "file_name": "./output/frames/frame_0113.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 114,
+        "file_name": "./output/frames/frame_0114.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 115,
+        "file_name": "./output/frames/frame_0115.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 116,
+        "file_name": "./output/frames/frame_0116.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 117,
+        "file_name": "./output/frames/frame_0117.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 118,
+        "file_name": "./output/frames/frame_0118.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 119,
+        "file_name": "./output/frames/frame_0119.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 120,
+        "file_name": "./output/frames/frame_0120.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 121,
+        "file_name": "./output/frames/frame_0121.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 122,
+        "file_name": "./output/frames/frame_0122.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 123,
+        "file_name": "./output/frames/frame_0123.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 124,
+        "file_name": "./output/frames/frame_0124.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 125,
+        "file_name": "./output/frames/frame_0125.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 126,
+        "file_name": "./output/frames/frame_0126.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 127,
+        "file_name": "./output/frames/frame_0127.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 128,
+        "file_name": "./output/frames/frame_0128.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 129,
+        "file_name": "./output/frames/frame_0129.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 130,
+        "file_name": "./output/frames/frame_0130.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 131,
+        "file_name": "./output/frames/frame_0131.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 132,
+        "file_name": "./output/frames/frame_0132.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 133,
+        "file_name": "./output/frames/frame_0133.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 134,
+        "file_name": "./output/frames/frame_0134.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 135,
+        "file_name": "./output/frames/frame_0135.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 136,
+        "file_name": "./output/frames/frame_0136.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 137,
+        "file_name": "./output/frames/frame_0137.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 138,
+        "file_name": "./output/frames/frame_0138.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 139,
+        "file_name": "./output/frames/frame_0139.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 140,
+        "file_name": "./output/frames/frame_0140.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 141,
+        "file_name": "./output/frames/frame_0141.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 142,
+        "file_name": "./output/frames/frame_0142.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 143,
+        "file_name": "./output/frames/frame_0143.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 144,
+        "file_name": "./output/frames/frame_0144.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 145,
+        "file_name": "./output/frames/frame_0145.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 146,
+        "file_name": "./output/frames/frame_0146.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 147,
+        "file_name": "./output/frames/frame_0147.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 148,
+        "file_name": "./output/frames/frame_0148.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 149,
+        "file_name": "./output/frames/frame_0149.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 150,
+        "file_name": "./output/frames/frame_0150.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 151,
+        "file_name": "./output/frames/frame_0151.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 152,
+        "file_name": "./output/frames/frame_0152.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 153,
+        "file_name": "./output/frames/frame_0153.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 154,
+        "file_name": "./output/frames/frame_0154.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 155,
+        "file_name": "./output/frames/frame_0155.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 156,
+        "file_name": "./output/frames/frame_0156.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 157,
+        "file_name": "./output/frames/frame_0157.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 158,
+        "file_name": "./output/frames/frame_0158.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 159,
+        "file_name": "./output/frames/frame_0159.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 160,
+        "file_name": "./output/frames/frame_0160.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 161,
+        "file_name": "./output/frames/frame_0161.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 162,
+        "file_name": "./output/frames/frame_0162.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 163,
+        "file_name": "./output/frames/frame_0163.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 164,
+        "file_name": "./output/frames/frame_0164.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 165,
+        "file_name": "./output/frames/frame_0165.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 166,
+        "file_name": "./output/frames/frame_0166.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 167,
+        "file_name": "./output/frames/frame_0167.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 168,
+        "file_name": "./output/frames/frame_0168.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 169,
+        "file_name": "./output/frames/frame_0169.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 170,
+        "file_name": "./output/frames/frame_0170.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 171,
+        "file_name": "./output/frames/frame_0171.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 172,
+        "file_name": "./output/frames/frame_0172.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 173,
+        "file_name": "./output/frames/frame_0173.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 174,
+        "file_name": "./output/frames/frame_0174.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 175,
+        "file_name": "./output/frames/frame_0175.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 176,
+        "file_name": "./output/frames/frame_0176.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 177,
+        "file_name": "./output/frames/frame_0177.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 178,
+        "file_name": "./output/frames/frame_0178.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 179,
+        "file_name": "./output/frames/frame_0179.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 180,
+        "file_name": "./output/frames/frame_0180.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 181,
+        "file_name": "./output/frames/frame_0181.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 182,
+        "file_name": "./output/frames/frame_0182.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 183,
+        "file_name": "./output/frames/frame_0183.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 184,
+        "file_name": "./output/frames/frame_0184.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 185,
+        "file_name": "./output/frames/frame_0185.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 186,
+        "file_name": "./output/frames/frame_0186.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 187,
+        "file_name": "./output/frames/frame_0187.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 188,
+        "file_name": "./output/frames/frame_0188.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 189,
+        "file_name": "./output/frames/frame_0189.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 190,
+        "file_name": "./output/frames/frame_0190.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 191,
+        "file_name": "./output/frames/frame_0191.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 192,
+        "file_name": "./output/frames/frame_0192.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 193,
+        "file_name": "./output/frames/frame_0193.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 194,
+        "file_name": "./output/frames/frame_0194.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 195,
+        "file_name": "./output/frames/frame_0195.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 196,
+        "file_name": "./output/frames/frame_0196.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 197,
+        "file_name": "./output/frames/frame_0197.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 198,
+        "file_name": "./output/frames/frame_0198.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 199,
+        "file_name": "./output/frames/frame_0199.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 200,
+        "file_name": "./output/frames/frame_0200.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 201,
+        "file_name": "./output/frames/frame_0201.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 202,
+        "file_name": "./output/frames/frame_0202.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 203,
+        "file_name": "./output/frames/frame_0203.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 204,
+        "file_name": "./output/frames/frame_0204.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 205,
+        "file_name": "./output/frames/frame_0205.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 206,
+        "file_name": "./output/frames/frame_0206.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 207,
+        "file_name": "./output/frames/frame_0207.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 208,
+        "file_name": "./output/frames/frame_0208.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 209,
+        "file_name": "./output/frames/frame_0209.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 210,
+        "file_name": "./output/frames/frame_0210.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 211,
+        "file_name": "./output/frames/frame_0211.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 212,
+        "file_name": "./output/frames/frame_0212.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 213,
+        "file_name": "./output/frames/frame_0213.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 214,
+        "file_name": "./output/frames/frame_0214.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 215,
+        "file_name": "./output/frames/frame_0215.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 216,
+        "file_name": "./output/frames/frame_0216.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 217,
+        "file_name": "./output/frames/frame_0217.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 218,
+        "file_name": "./output/frames/frame_0218.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 219,
+        "file_name": "./output/frames/frame_0219.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 220,
+        "file_name": "./output/frames/frame_0220.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 221,
+        "file_name": "./output/frames/frame_0221.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 222,
+        "file_name": "./output/frames/frame_0222.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 223,
+        "file_name": "./output/frames/frame_0223.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 224,
+        "file_name": "./output/frames/frame_0224.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 225,
+        "file_name": "./output/frames/frame_0225.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 226,
+        "file_name": "./output/frames/frame_0226.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 227,
+        "file_name": "./output/frames/frame_0227.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 228,
+        "file_name": "./output/frames/frame_0228.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 229,
+        "file_name": "./output/frames/frame_0229.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 230,
+        "file_name": "./output/frames/frame_0230.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 231,
+        "file_name": "./output/frames/frame_0231.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 232,
+        "file_name": "./output/frames/frame_0232.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 233,
+        "file_name": "./output/frames/frame_0233.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 234,
+        "file_name": "./output/frames/frame_0234.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 235,
+        "file_name": "./output/frames/frame_0235.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 236,
+        "file_name": "./output/frames/frame_0236.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 237,
+        "file_name": "./output/frames/frame_0237.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 238,
+        "file_name": "./output/frames/frame_0238.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 239,
+        "file_name": "./output/frames/frame_0239.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 240,
+        "file_name": "./output/frames/frame_0240.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 241,
+        "file_name": "./output/frames/frame_0241.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 242,
+        "file_name": "./output/frames/frame_0242.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 243,
+        "file_name": "./output/frames/frame_0243.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 244,
+        "file_name": "./output/frames/frame_0244.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 245,
+        "file_name": "./output/frames/frame_0245.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 246,
+        "file_name": "./output/frames/frame_0246.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 247,
+        "file_name": "./output/frames/frame_0247.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 248,
+        "file_name": "./output/frames/frame_0248.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 249,
+        "file_name": "./output/frames/frame_0249.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 250,
+        "file_name": "./output/frames/frame_0250.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 251,
+        "file_name": "./output/frames/frame_0251.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 252,
+        "file_name": "./output/frames/frame_0252.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 253,
+        "file_name": "./output/frames/frame_0253.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 254,
+        "file_name": "./output/frames/frame_0254.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 255,
+        "file_name": "./output/frames/frame_0255.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 256,
+        "file_name": "./output/frames/frame_0256.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 257,
+        "file_name": "./output/frames/frame_0257.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 258,
+        "file_name": "./output/frames/frame_0258.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 259,
+        "file_name": "./output/frames/frame_0259.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 260,
+        "file_name": "./output/frames/frame_0260.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 261,
+        "file_name": "./output/frames/frame_0261.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 262,
+        "file_name": "./output/frames/frame_0262.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 263,
+        "file_name": "./output/frames/frame_0263.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 264,
+        "file_name": "./output/frames/frame_0264.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 265,
+        "file_name": "./output/frames/frame_0265.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 266,
+        "file_name": "./output/frames/frame_0266.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 267,
+        "file_name": "./output/frames/frame_0267.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 268,
+        "file_name": "./output/frames/frame_0268.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 269,
+        "file_name": "./output/frames/frame_0269.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 270,
+        "file_name": "./output/frames/frame_0270.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 271,
+        "file_name": "./output/frames/frame_0271.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 272,
+        "file_name": "./output/frames/frame_0272.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 273,
+        "file_name": "./output/frames/frame_0273.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 274,
+        "file_name": "./output/frames/frame_0274.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 275,
+        "file_name": "./output/frames/frame_0275.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 276,
+        "file_name": "./output/frames/frame_0276.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 277,
+        "file_name": "./output/frames/frame_0277.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 278,
+        "file_name": "./output/frames/frame_0278.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 279,
+        "file_name": "./output/frames/frame_0279.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 280,
+        "file_name": "./output/frames/frame_0280.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 281,
+        "file_name": "./output/frames/frame_0281.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 282,
+        "file_name": "./output/frames/frame_0282.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 283,
+        "file_name": "./output/frames/frame_0283.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 284,
+        "file_name": "./output/frames/frame_0284.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 285,
+        "file_name": "./output/frames/frame_0285.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 286,
+        "file_name": "./output/frames/frame_0286.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 287,
+        "file_name": "./output/frames/frame_0287.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 288,
+        "file_name": "./output/frames/frame_0288.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 289,
+        "file_name": "./output/frames/frame_0289.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 290,
+        "file_name": "./output/frames/frame_0290.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 291,
+        "file_name": "./output/frames/frame_0291.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 292,
+        "file_name": "./output/frames/frame_0292.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 293,
+        "file_name": "./output/frames/frame_0293.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 294,
+        "file_name": "./output/frames/frame_0294.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 295,
+        "file_name": "./output/frames/frame_0295.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 296,
+        "file_name": "./output/frames/frame_0296.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 297,
+        "file_name": "./output/frames/frame_0297.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 298,
+        "file_name": "./output/frames/frame_0298.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 299,
+        "file_name": "./output/frames/frame_0299.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 300,
+        "file_name": "./output/frames/frame_0300.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 301,
+        "file_name": "./output/frames/frame_0301.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 302,
+        "file_name": "./output/frames/frame_0302.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 303,
+        "file_name": "./output/frames/frame_0303.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 304,
+        "file_name": "./output/frames/frame_0304.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 305,
+        "file_name": "./output/frames/frame_0305.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 306,
+        "file_name": "./output/frames/frame_0306.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 307,
+        "file_name": "./output/frames/frame_0307.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 308,
+        "file_name": "./output/frames/frame_0308.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 309,
+        "file_name": "./output/frames/frame_0309.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 310,
+        "file_name": "./output/frames/frame_0310.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 311,
+        "file_name": "./output/frames/frame_0311.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 312,
+        "file_name": "./output/frames/frame_0312.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 313,
+        "file_name": "./output/frames/frame_0313.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 314,
+        "file_name": "./output/frames/frame_0314.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 315,
+        "file_name": "./output/frames/frame_0315.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 316,
+        "file_name": "./output/frames/frame_0316.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 317,
+        "file_name": "./output/frames/frame_0317.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 318,
+        "file_name": "./output/frames/frame_0318.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 319,
+        "file_name": "./output/frames/frame_0319.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 320,
+        "file_name": "./output/frames/frame_0320.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 321,
+        "file_name": "./output/frames/frame_0321.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 322,
+        "file_name": "./output/frames/frame_0322.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 323,
+        "file_name": "./output/frames/frame_0323.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 324,
+        "file_name": "./output/frames/frame_0324.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 325,
+        "file_name": "./output/frames/frame_0325.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 326,
+        "file_name": "./output/frames/frame_0326.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 327,
+        "file_name": "./output/frames/frame_0327.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 328,
+        "file_name": "./output/frames/frame_0328.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 329,
+        "file_name": "./output/frames/frame_0329.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 330,
+        "file_name": "./output/frames/frame_0330.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 331,
+        "file_name": "./output/frames/frame_0331.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 332,
+        "file_name": "./output/frames/frame_0332.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 333,
+        "file_name": "./output/frames/frame_0333.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 334,
+        "file_name": "./output/frames/frame_0334.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 335,
+        "file_name": "./output/frames/frame_0335.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 336,
+        "file_name": "./output/frames/frame_0336.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 337,
+        "file_name": "./output/frames/frame_0337.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 338,
+        "file_name": "./output/frames/frame_0338.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 339,
+        "file_name": "./output/frames/frame_0339.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 340,
+        "file_name": "./output/frames/frame_0340.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 341,
+        "file_name": "./output/frames/frame_0341.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 342,
+        "file_name": "./output/frames/frame_0342.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 343,
+        "file_name": "./output/frames/frame_0343.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 344,
+        "file_name": "./output/frames/frame_0344.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 345,
+        "file_name": "./output/frames/frame_0345.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 346,
+        "file_name": "./output/frames/frame_0346.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 347,
+        "file_name": "./output/frames/frame_0347.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 348,
+        "file_name": "./output/frames/frame_0348.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 349,
+        "file_name": "./output/frames/frame_0349.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 350,
+        "file_name": "./output/frames/frame_0350.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 351,
+        "file_name": "./output/frames/frame_0351.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 352,
+        "file_name": "./output/frames/frame_0352.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 353,
+        "file_name": "./output/frames/frame_0353.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 354,
+        "file_name": "./output/frames/frame_0354.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 355,
+        "file_name": "./output/frames/frame_0355.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 356,
+        "file_name": "./output/frames/frame_0356.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 357,
+        "file_name": "./output/frames/frame_0357.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 358,
+        "file_name": "./output/frames/frame_0358.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 359,
+        "file_name": "./output/frames/frame_0359.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 360,
+        "file_name": "./output/frames/frame_0360.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 361,
+        "file_name": "./output/frames/frame_0361.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 362,
+        "file_name": "./output/frames/frame_0362.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 363,
+        "file_name": "./output/frames/frame_0363.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 364,
+        "file_name": "./output/frames/frame_0364.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 365,
+        "file_name": "./output/frames/frame_0365.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 366,
+        "file_name": "./output/frames/frame_0366.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 367,
+        "file_name": "./output/frames/frame_0367.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 368,
+        "file_name": "./output/frames/frame_0368.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 369,
+        "file_name": "./output/frames/frame_0369.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 370,
+        "file_name": "./output/frames/frame_0370.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 371,
+        "file_name": "./output/frames/frame_0371.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 372,
+        "file_name": "./output/frames/frame_0372.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 373,
+        "file_name": "./output/frames/frame_0373.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 374,
+        "file_name": "./output/frames/frame_0374.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 375,
+        "file_name": "./output/frames/frame_0375.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 376,
+        "file_name": "./output/frames/frame_0376.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 377,
+        "file_name": "./output/frames/frame_0377.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 378,
+        "file_name": "./output/frames/frame_0378.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 379,
+        "file_name": "./output/frames/frame_0379.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 380,
+        "file_name": "./output/frames/frame_0380.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 381,
+        "file_name": "./output/frames/frame_0381.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 382,
+        "file_name": "./output/frames/frame_0382.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 383,
+        "file_name": "./output/frames/frame_0383.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 384,
+        "file_name": "./output/frames/frame_0384.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 385,
+        "file_name": "./output/frames/frame_0385.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 386,
+        "file_name": "./output/frames/frame_0386.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 387,
+        "file_name": "./output/frames/frame_0387.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 388,
+        "file_name": "./output/frames/frame_0388.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 389,
+        "file_name": "./output/frames/frame_0389.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 390,
+        "file_name": "./output/frames/frame_0390.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 391,
+        "file_name": "./output/frames/frame_0391.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 392,
+        "file_name": "./output/frames/frame_0392.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 393,
+        "file_name": "./output/frames/frame_0393.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 394,
+        "file_name": "./output/frames/frame_0394.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 395,
+        "file_name": "./output/frames/frame_0395.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 396,
+        "file_name": "./output/frames/frame_0396.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 397,
+        "file_name": "./output/frames/frame_0397.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 398,
+        "file_name": "./output/frames/frame_0398.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 399,
+        "file_name": "./output/frames/frame_0399.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 400,
+        "file_name": "./output/frames/frame_0400.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 401,
+        "file_name": "./output/frames/frame_0401.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 402,
+        "file_name": "./output/frames/frame_0402.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 403,
+        "file_name": "./output/frames/frame_0403.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 404,
+        "file_name": "./output/frames/frame_0404.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 405,
+        "file_name": "./output/frames/frame_0405.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 406,
+        "file_name": "./output/frames/frame_0406.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 407,
+        "file_name": "./output/frames/frame_0407.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 408,
+        "file_name": "./output/frames/frame_0408.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 409,
+        "file_name": "./output/frames/frame_0409.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 410,
+        "file_name": "./output/frames/frame_0410.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 411,
+        "file_name": "./output/frames/frame_0411.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 412,
+        "file_name": "./output/frames/frame_0412.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 413,
+        "file_name": "./output/frames/frame_0413.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 414,
+        "file_name": "./output/frames/frame_0414.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 415,
+        "file_name": "./output/frames/frame_0415.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 416,
+        "file_name": "./output/frames/frame_0416.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 417,
+        "file_name": "./output/frames/frame_0417.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 418,
+        "file_name": "./output/frames/frame_0418.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 419,
+        "file_name": "./output/frames/frame_0419.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 420,
+        "file_name": "./output/frames/frame_0420.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 421,
+        "file_name": "./output/frames/frame_0421.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 422,
+        "file_name": "./output/frames/frame_0422.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 423,
+        "file_name": "./output/frames/frame_0423.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 424,
+        "file_name": "./output/frames/frame_0424.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 425,
+        "file_name": "./output/frames/frame_0425.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 426,
+        "file_name": "./output/frames/frame_0426.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 427,
+        "file_name": "./output/frames/frame_0427.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 428,
+        "file_name": "./output/frames/frame_0428.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 429,
+        "file_name": "./output/frames/frame_0429.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 430,
+        "file_name": "./output/frames/frame_0430.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 431,
+        "file_name": "./output/frames/frame_0431.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 432,
+        "file_name": "./output/frames/frame_0432.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 433,
+        "file_name": "./output/frames/frame_0433.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 434,
+        "file_name": "./output/frames/frame_0434.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 435,
+        "file_name": "./output/frames/frame_0435.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 436,
+        "file_name": "./output/frames/frame_0436.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 437,
+        "file_name": "./output/frames/frame_0437.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 438,
+        "file_name": "./output/frames/frame_0438.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 439,
+        "file_name": "./output/frames/frame_0439.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 440,
+        "file_name": "./output/frames/frame_0440.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 441,
+        "file_name": "./output/frames/frame_0441.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 442,
+        "file_name": "./output/frames/frame_0442.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 443,
+        "file_name": "./output/frames/frame_0443.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 444,
+        "file_name": "./output/frames/frame_0444.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 445,
+        "file_name": "./output/frames/frame_0445.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 446,
+        "file_name": "./output/frames/frame_0446.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 447,
+        "file_name": "./output/frames/frame_0447.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 448,
+        "file_name": "./output/frames/frame_0448.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 449,
+        "file_name": "./output/frames/frame_0449.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 450,
+        "file_name": "./output/frames/frame_0450.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 451,
+        "file_name": "./output/frames/frame_0451.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 452,
+        "file_name": "./output/frames/frame_0452.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 453,
+        "file_name": "./output/frames/frame_0453.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 454,
+        "file_name": "./output/frames/frame_0454.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 455,
+        "file_name": "./output/frames/frame_0455.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 456,
+        "file_name": "./output/frames/frame_0456.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 457,
+        "file_name": "./output/frames/frame_0457.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 458,
+        "file_name": "./output/frames/frame_0458.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 459,
+        "file_name": "./output/frames/frame_0459.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 460,
+        "file_name": "./output/frames/frame_0460.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 461,
+        "file_name": "./output/frames/frame_0461.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 462,
+        "file_name": "./output/frames/frame_0462.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 463,
+        "file_name": "./output/frames/frame_0463.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 464,
+        "file_name": "./output/frames/frame_0464.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 465,
+        "file_name": "./output/frames/frame_0465.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 466,
+        "file_name": "./output/frames/frame_0466.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 467,
+        "file_name": "./output/frames/frame_0467.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 468,
+        "file_name": "./output/frames/frame_0468.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 469,
+        "file_name": "./output/frames/frame_0469.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 470,
+        "file_name": "./output/frames/frame_0470.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 471,
+        "file_name": "./output/frames/frame_0471.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 472,
+        "file_name": "./output/frames/frame_0472.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 473,
+        "file_name": "./output/frames/frame_0473.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 474,
+        "file_name": "./output/frames/frame_0474.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 475,
+        "file_name": "./output/frames/frame_0475.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 476,
+        "file_name": "./output/frames/frame_0476.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 477,
+        "file_name": "./output/frames/frame_0477.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 478,
+        "file_name": "./output/frames/frame_0478.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 479,
+        "file_name": "./output/frames/frame_0479.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 480,
+        "file_name": "./output/frames/frame_0480.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 481,
+        "file_name": "./output/frames/frame_0481.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 482,
+        "file_name": "./output/frames/frame_0482.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 483,
+        "file_name": "./output/frames/frame_0483.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 484,
+        "file_name": "./output/frames/frame_0484.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 485,
+        "file_name": "./output/frames/frame_0485.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 486,
+        "file_name": "./output/frames/frame_0486.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 487,
+        "file_name": "./output/frames/frame_0487.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 488,
+        "file_name": "./output/frames/frame_0488.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 489,
+        "file_name": "./output/frames/frame_0489.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 490,
+        "file_name": "./output/frames/frame_0490.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 491,
+        "file_name": "./output/frames/frame_0491.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 492,
+        "file_name": "./output/frames/frame_0492.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 493,
+        "file_name": "./output/frames/frame_0493.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 494,
+        "file_name": "./output/frames/frame_0494.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 495,
+        "file_name": "./output/frames/frame_0495.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 496,
+        "file_name": "./output/frames/frame_0496.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 497,
+        "file_name": "./output/frames/frame_0497.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 498,
+        "file_name": "./output/frames/frame_0498.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 499,
+        "file_name": "./output/frames/frame_0499.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 500,
+        "file_name": "./output/frames/frame_0500.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 501,
+        "file_name": "./output/frames/frame_0501.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 502,
+        "file_name": "./output/frames/frame_0502.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 503,
+        "file_name": "./output/frames/frame_0503.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 504,
+        "file_name": "./output/frames/frame_0504.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 505,
+        "file_name": "./output/frames/frame_0505.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 506,
+        "file_name": "./output/frames/frame_0506.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 507,
+        "file_name": "./output/frames/frame_0507.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 508,
+        "file_name": "./output/frames/frame_0508.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 509,
+        "file_name": "./output/frames/frame_0509.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 510,
+        "file_name": "./output/frames/frame_0510.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 511,
+        "file_name": "./output/frames/frame_0511.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 512,
+        "file_name": "./output/frames/frame_0512.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 513,
+        "file_name": "./output/frames/frame_0513.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 514,
+        "file_name": "./output/frames/frame_0514.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 515,
+        "file_name": "./output/frames/frame_0515.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 516,
+        "file_name": "./output/frames/frame_0516.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 517,
+        "file_name": "./output/frames/frame_0517.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 518,
+        "file_name": "./output/frames/frame_0518.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 519,
+        "file_name": "./output/frames/frame_0519.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 520,
+        "file_name": "./output/frames/frame_0520.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 521,
+        "file_name": "./output/frames/frame_0521.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 522,
+        "file_name": "./output/frames/frame_0522.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 523,
+        "file_name": "./output/frames/frame_0523.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 524,
+        "file_name": "./output/frames/frame_0524.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 525,
+        "file_name": "./output/frames/frame_0525.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 526,
+        "file_name": "./output/frames/frame_0526.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 527,
+        "file_name": "./output/frames/frame_0527.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 528,
+        "file_name": "./output/frames/frame_0528.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 529,
+        "file_name": "./output/frames/frame_0529.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 530,
+        "file_name": "./output/frames/frame_0530.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 531,
+        "file_name": "./output/frames/frame_0531.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 532,
+        "file_name": "./output/frames/frame_0532.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 533,
+        "file_name": "./output/frames/frame_0533.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 534,
+        "file_name": "./output/frames/frame_0534.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 535,
+        "file_name": "./output/frames/frame_0535.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 536,
+        "file_name": "./output/frames/frame_0536.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 537,
+        "file_name": "./output/frames/frame_0537.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 538,
+        "file_name": "./output/frames/frame_0538.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 539,
+        "file_name": "./output/frames/frame_0539.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 540,
+        "file_name": "./output/frames/frame_0540.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 541,
+        "file_name": "./output/frames/frame_0541.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 542,
+        "file_name": "./output/frames/frame_0542.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 543,
+        "file_name": "./output/frames/frame_0543.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 544,
+        "file_name": "./output/frames/frame_0544.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 545,
+        "file_name": "./output/frames/frame_0545.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 546,
+        "file_name": "./output/frames/frame_0546.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 547,
+        "file_name": "./output/frames/frame_0547.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 548,
+        "file_name": "./output/frames/frame_0548.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 549,
+        "file_name": "./output/frames/frame_0549.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 550,
+        "file_name": "./output/frames/frame_0550.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 551,
+        "file_name": "./output/frames/frame_0551.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 552,
+        "file_name": "./output/frames/frame_0552.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 553,
+        "file_name": "./output/frames/frame_0553.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 554,
+        "file_name": "./output/frames/frame_0554.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 555,
+        "file_name": "./output/frames/frame_0555.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 556,
+        "file_name": "./output/frames/frame_0556.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 557,
+        "file_name": "./output/frames/frame_0557.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 558,
+        "file_name": "./output/frames/frame_0558.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 559,
+        "file_name": "./output/frames/frame_0559.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 560,
+        "file_name": "./output/frames/frame_0560.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 561,
+        "file_name": "./output/frames/frame_0561.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 562,
+        "file_name": "./output/frames/frame_0562.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 563,
+        "file_name": "./output/frames/frame_0563.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 564,
+        "file_name": "./output/frames/frame_0564.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 565,
+        "file_name": "./output/frames/frame_0565.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 566,
+        "file_name": "./output/frames/frame_0566.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 567,
+        "file_name": "./output/frames/frame_0567.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 568,
+        "file_name": "./output/frames/frame_0568.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 569,
+        "file_name": "./output/frames/frame_0569.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 570,
+        "file_name": "./output/frames/frame_0570.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 571,
+        "file_name": "./output/frames/frame_0571.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 572,
+        "file_name": "./output/frames/frame_0572.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 573,
+        "file_name": "./output/frames/frame_0573.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 574,
+        "file_name": "./output/frames/frame_0574.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 575,
+        "file_name": "./output/frames/frame_0575.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 576,
+        "file_name": "./output/frames/frame_0576.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 577,
+        "file_name": "./output/frames/frame_0577.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 578,
+        "file_name": "./output/frames/frame_0578.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 579,
+        "file_name": "./output/frames/frame_0579.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 580,
+        "file_name": "./output/frames/frame_0580.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 581,
+        "file_name": "./output/frames/frame_0581.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 582,
+        "file_name": "./output/frames/frame_0582.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 583,
+        "file_name": "./output/frames/frame_0583.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 584,
+        "file_name": "./output/frames/frame_0584.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 585,
+        "file_name": "./output/frames/frame_0585.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 586,
+        "file_name": "./output/frames/frame_0586.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 587,
+        "file_name": "./output/frames/frame_0587.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 588,
+        "file_name": "./output/frames/frame_0588.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 589,
+        "file_name": "./output/frames/frame_0589.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 590,
+        "file_name": "./output/frames/frame_0590.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 591,
+        "file_name": "./output/frames/frame_0591.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 592,
+        "file_name": "./output/frames/frame_0592.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 593,
+        "file_name": "./output/frames/frame_0593.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 594,
+        "file_name": "./output/frames/frame_0594.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 595,
+        "file_name": "./output/frames/frame_0595.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 596,
+        "file_name": "./output/frames/frame_0596.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 597,
+        "file_name": "./output/frames/frame_0597.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 598,
+        "file_name": "./output/frames/frame_0598.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 599,
+        "file_name": "./output/frames/frame_0599.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 600,
+        "file_name": "./output/frames/frame_0600.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 601,
+        "file_name": "./output/frames/frame_0601.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 602,
+        "file_name": "./output/frames/frame_0602.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 603,
+        "file_name": "./output/frames/frame_0603.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 604,
+        "file_name": "./output/frames/frame_0604.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 605,
+        "file_name": "./output/frames/frame_0605.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 606,
+        "file_name": "./output/frames/frame_0606.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 607,
+        "file_name": "./output/frames/frame_0607.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 608,
+        "file_name": "./output/frames/frame_0608.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 609,
+        "file_name": "./output/frames/frame_0609.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 610,
+        "file_name": "./output/frames/frame_0610.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 611,
+        "file_name": "./output/frames/frame_0611.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 612,
+        "file_name": "./output/frames/frame_0612.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 613,
+        "file_name": "./output/frames/frame_0613.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 614,
+        "file_name": "./output/frames/frame_0614.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 615,
+        "file_name": "./output/frames/frame_0615.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 616,
+        "file_name": "./output/frames/frame_0616.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 617,
+        "file_name": "./output/frames/frame_0617.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 618,
+        "file_name": "./output/frames/frame_0618.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 619,
+        "file_name": "./output/frames/frame_0619.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 620,
+        "file_name": "./output/frames/frame_0620.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 621,
+        "file_name": "./output/frames/frame_0621.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 622,
+        "file_name": "./output/frames/frame_0622.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 623,
+        "file_name": "./output/frames/frame_0623.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 624,
+        "file_name": "./output/frames/frame_0624.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 625,
+        "file_name": "./output/frames/frame_0625.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 626,
+        "file_name": "./output/frames/frame_0626.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 627,
+        "file_name": "./output/frames/frame_0627.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 628,
+        "file_name": "./output/frames/frame_0628.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 629,
+        "file_name": "./output/frames/frame_0629.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 630,
+        "file_name": "./output/frames/frame_0630.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 631,
+        "file_name": "./output/frames/frame_0631.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 632,
+        "file_name": "./output/frames/frame_0632.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 633,
+        "file_name": "./output/frames/frame_0633.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 634,
+        "file_name": "./output/frames/frame_0634.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 635,
+        "file_name": "./output/frames/frame_0635.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 636,
+        "file_name": "./output/frames/frame_0636.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 637,
+        "file_name": "./output/frames/frame_0637.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 638,
+        "file_name": "./output/frames/frame_0638.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 639,
+        "file_name": "./output/frames/frame_0639.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 640,
+        "file_name": "./output/frames/frame_0640.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 641,
+        "file_name": "./output/frames/frame_0641.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 642,
+        "file_name": "./output/frames/frame_0642.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 643,
+        "file_name": "./output/frames/frame_0643.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 644,
+        "file_name": "./output/frames/frame_0644.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 645,
+        "file_name": "./output/frames/frame_0645.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 646,
+        "file_name": "./output/frames/frame_0646.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 647,
+        "file_name": "./output/frames/frame_0647.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 648,
+        "file_name": "./output/frames/frame_0648.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 649,
+        "file_name": "./output/frames/frame_0649.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 650,
+        "file_name": "./output/frames/frame_0650.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 651,
+        "file_name": "./output/frames/frame_0651.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 652,
+        "file_name": "./output/frames/frame_0652.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 653,
+        "file_name": "./output/frames/frame_0653.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 654,
+        "file_name": "./output/frames/frame_0654.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 655,
+        "file_name": "./output/frames/frame_0655.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 656,
+        "file_name": "./output/frames/frame_0656.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 657,
+        "file_name": "./output/frames/frame_0657.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 658,
+        "file_name": "./output/frames/frame_0658.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 659,
+        "file_name": "./output/frames/frame_0659.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 660,
+        "file_name": "./output/frames/frame_0660.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 661,
+        "file_name": "./output/frames/frame_0661.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 662,
+        "file_name": "./output/frames/frame_0662.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 663,
+        "file_name": "./output/frames/frame_0663.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 664,
+        "file_name": "./output/frames/frame_0664.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 665,
+        "file_name": "./output/frames/frame_0665.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 666,
+        "file_name": "./output/frames/frame_0666.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 667,
+        "file_name": "./output/frames/frame_0667.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 668,
+        "file_name": "./output/frames/frame_0668.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 669,
+        "file_name": "./output/frames/frame_0669.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 670,
+        "file_name": "./output/frames/frame_0670.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 671,
+        "file_name": "./output/frames/frame_0671.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 672,
+        "file_name": "./output/frames/frame_0672.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 673,
+        "file_name": "./output/frames/frame_0673.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 674,
+        "file_name": "./output/frames/frame_0674.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 675,
+        "file_name": "./output/frames/frame_0675.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 676,
+        "file_name": "./output/frames/frame_0676.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 677,
+        "file_name": "./output/frames/frame_0677.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 678,
+        "file_name": "./output/frames/frame_0678.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 679,
+        "file_name": "./output/frames/frame_0679.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 680,
+        "file_name": "./output/frames/frame_0680.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 681,
+        "file_name": "./output/frames/frame_0681.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 682,
+        "file_name": "./output/frames/frame_0682.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 683,
+        "file_name": "./output/frames/frame_0683.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 684,
+        "file_name": "./output/frames/frame_0684.jpg",
+        "stepDetection": false,
+        "stepSide": "None"
+    },
+    {
+        "frame_index": 685,
+        "file_name": "./output/frames/frame_0685.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 686,
+        "file_name": "./output/frames/frame_0686.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 687,
+        "file_name": "./output/frames/frame_0687.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 688,
+        "file_name": "./output/frames/frame_0688.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 689,
+        "file_name": "./output/frames/frame_0689.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 690,
+        "file_name": "./output/frames/frame_0690.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 691,
+        "file_name": "./output/frames/frame_0691.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 692,
+        "file_name": "./output/frames/frame_0692.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 693,
+        "file_name": "./output/frames/frame_0693.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 694,
+        "file_name": "./output/frames/frame_0694.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 695,
+        "file_name": "./output/frames/frame_0695.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 696,
+        "file_name": "./output/frames/frame_0696.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 697,
+        "file_name": "./output/frames/frame_0697.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 698,
+        "file_name": "./output/frames/frame_0698.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 699,
+        "file_name": "./output/frames/frame_0699.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 700,
+        "file_name": "./output/frames/frame_0700.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 701,
+        "file_name": "./output/frames/frame_0701.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 702,
+        "file_name": "./output/frames/frame_0702.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 703,
+        "file_name": "./output/frames/frame_0703.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 704,
+        "file_name": "./output/frames/frame_0704.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 705,
+        "file_name": "./output/frames/frame_0705.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 706,
+        "file_name": "./output/frames/frame_0706.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 707,
+        "file_name": "./output/frames/frame_0707.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 708,
+        "file_name": "./output/frames/frame_0708.jpg",
+        "stepDetection": true,
+        "stepSide": "Right"
+    },
+    {
+        "frame_index": 709,
+        "file_name": "./output/frames/frame_0709.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 710,
+        "file_name": "./output/frames/frame_0710.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 711,
+        "file_name": "./output/frames/frame_0711.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 712,
+        "file_name": "./output/frames/frame_0712.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 713,
+        "file_name": "./output/frames/frame_0713.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 714,
+        "file_name": "./output/frames/frame_0714.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 715,
+        "file_name": "./output/frames/frame_0715.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 716,
+        "file_name": "./output/frames/frame_0716.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 717,
+        "file_name": "./output/frames/frame_0717.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 718,
+        "file_name": "./output/frames/frame_0718.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 719,
+        "file_name": "./output/frames/frame_0719.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 720,
+        "file_name": "./output/frames/frame_0720.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 721,
+        "file_name": "./output/frames/frame_0721.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 722,
+        "file_name": "./output/frames/frame_0722.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 723,
+        "file_name": "./output/frames/frame_0723.jpg",
+        "stepDetection": true,
+        "stepSide": "Both"
+    },
+    {
+        "frame_index": 724,
+        "file_name": "./output/frames/frame_0724.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 725,
+        "file_name": "./output/frames/frame_0725.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 726,
+        "file_name": "./output/frames/frame_0726.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    },
+    {
+        "frame_index": 727,
+        "file_name": "./output/frames/frame_0727.jpg",
+        "stepDetection": true,
+        "stepSide": "Left"
+    }
+]

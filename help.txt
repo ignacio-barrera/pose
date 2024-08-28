@@ -1,0 +1,25 @@
+cv::Point2f pcentral = ft.contourCentersScene[4];
+
+for (i = current_seq; i < maxFrame; ++i)
+    if(ft.in_objective1[i] == 5 || ft.in_objective2[i] == 5)
+        break;
+
+
+//Search for left exit:
+for (i = current_seq; i < maxFrame; ++i) {
+    if(ft.left_step[i] == 0) //Continue until a step is detected
+        continue;
+//Search for right exit:
+for (i = current_seq; i < maxFrame; ++i) {
+    if(ft.right_step[i] == 0) //Continue until a step is detected
+
+
+ p_out_s = ft.imageToScene(p_out1),
+ p_center = ft.contourCentersScene[4]; //Take central point as reference
+
+p1 = ft.imageToScene(ft.right_foot[rindex_1]);
+tambien ft.left_foot[rindex_1];
+
+
+cur_item.d_l = ft.odist1[il_found];
+cur_item.d_r = ft.odist2[ir_found];
