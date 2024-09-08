@@ -1,0 +1,62 @@
+version '3.8'
+
+services
+  postgres
+    image postgres
+    restart always
+    ports
+      - 54325432
+    environment
+      - POSTGRES_USER=root
+      - POSTGRES_PASSWORD=root
+      - POSTGRES_DB=WILD_SENSE
+    volumes
+      - .postgres_datavarlibpostgresqldata
+
+  mcp_api
+    image mcpwildsensedev-mcp-apilatest
+    restart always
+    ports
+      - 30003000
+    environment
+      - DB_USER=${DB_USER}
+      - DB_PASSWORD=${DB_PASSWORD}
+      - DB_HOST=${DB_HOST}
+      - DB_PORT=${DB_PORT}
+      - DB_NAME=${DB_NAME}
+      - TOKEN=${TOKEN}
+    depends_on
+      - postgres
+
+  mcp_front
+    image mcpwildsensedev-mcp-frontlatest
+    restart always
+    ports
+      - 30303030
+    environment
+      - REACT_APP_APIMCP=${REACT_APP_APIMCP}
+      - REACT_APP_HEADER=${REACT_APP_HEADER}
+      - REACT_APP_TOKEN=${REACT_APP_TOKEN}
+      - REACT_APP_AWS_ACCESS_KEY_ID=${REACT_APP_AWS_ACCESS_KEY_ID}
+      - REACT_APP_AWS_SECRET_ACCESS_KEY=${REACT_APP_AWS_SECRET_ACCESS_KEY}
+      - REACT_APP_AWS_URL=${REACT_APP_AWS_URL}
+      - REACT_APP_VISIONMCP=${REACT_APP_VISIONMCP}
+      - PORT=${PORT}
+    depends_on
+      - mcp_api
+
+  mcp_vision
+    image mcpwildsensedev-mcp-visionlatest
+    restart always
+    ports
+      - 30013001
+
+  mcp_dashboard
+    image mcpwildsensedev-mcp-dashboardlatest
+    restart always
+    ports
+      - 41734173
+    environment
+      - VITE_REACT_APP_APIMCP=${VITE_REACT_APP_APIMCP}
+      - VITE_REACT_APP_HEADER=${VITE_REACT_APP_HEADER}
+      - VITE_REACT_APP_TOKEN=${VITE_REACT_APP_TOKEN}

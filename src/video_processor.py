@@ -3,8 +3,11 @@ import mediapipe as mp
 import json
 import numpy as np
 import os
-import sys
 import shutil
+import requests
+
+# La flag test mode se utiliza para guardar los frames y video
+# en un directorio de salida para pruebas visuales
 
 # Inicializar BlazePose
 mp_pose = mp.solutions.pose
@@ -107,24 +110,31 @@ def create_directory(directory):
         os.makedirs(directory)
 
 def clear_output_directory():
-    # Eliminar directorios y archivos previos si existen
     if os.path.exists('./output'):
         shutil.rmtree('./output')
 
-def process_video(video_path, test_mode):
+def download_video(video_url):
+    video_path = "temp_video.mp4"
+    response = requests.get(video_url, stream=True)
+    with open(video_path, 'wb') as f:
+        shutil.copyfileobj(response.raw, f)
+    return video_path
+
+def process_video(video_url, test_mode=False):
     global Dx_left_s, Dy_left_s, Dx_right_s, Dy_right_s, left_rects_s, right_rects_s
     
-    if test_mode:
-        clear_output_directory()  # Limpiar la salida antes de generar nuevos archivos
+    clear_output_directory()  # Limpiar la salida antes de generar nuevos archivos
+    
+    video_path = download_video(video_url)
     
     cap = cv2.VideoCapture(video_path)
     frame_width = int(cap.get(3))
     frame_height = int(cap.get(4))
     fps = int(cap.get(cv2.CAP_PROP_FPS))
 
-    # Hardcode FPS si detecta un valor inusualmente alto o bajo, esto ya que a veces los videos no tienen un valor de FPS correcto, por ejemplo 1000
-    if fps > 65 or fps <= 0:  # Valores típicos de FPS
-        fps = 30  # Se hardcodea a 30 FPS
+    # Hardcode FPS si detecta un valor inusualmente alto o bajo
+    if fps > 65 or fps <= 0:
+        fps = 30
         print(f'FPS hardcoded to {fps}')
     print(f'Video resolution: {frame_width}x{frame_height} and {fps} FPS')
     
@@ -188,7 +198,12 @@ def process_video(video_path, test_mode):
             left_foot_color = (255, 0, 255)  # Color morado por defecto
             right_foot_color = (255, 0, 255)  # Color morado por defecto
 
-            if frame_idx > 0:
+            if frame_idx == 0:
+                # Forzar la detección de una pisada en el primer frame
+                stepDetection = True
+                stepSide = 'Both'
+
+            elif frame_idx > 0:
                 dx_left = left_heel_point[0] - left_points[-1][0]
                 dy_left = left_heel_point[1] - left_points[-1][1]
                 dx_right = right_heel_point[0] - right_points[-1][0]
@@ -268,7 +283,7 @@ def process_video(video_path, test_mode):
             }
         }
         frames_info.append(frame_info)
-
+        
         if test_mode:
             out.write(frame)
         frame_count += 1
@@ -279,23 +294,14 @@ def process_video(video_path, test_mode):
     if test_mode:
         out.release()
 
-    # Guardar el JSON con la información de los cuadros procesados
+    # Guardar el JSON con la información obtenida
     json_filename = './output/frames_info.json'
-    create_directory('./output')  # Asegurar que el directorio exista
+    create_directory('./output')
     with open(json_filename, 'w') as json_file:
         json.dump(frames_info, json_file, indent=4)
 
-    return frames_info  # Devolver la información de los cuadros procesados
+    # Eliminar el archivo de video temporal
+    if os.path.exists(video_path):
+        os.remove(video_path)
 
-def main():
-    if len(sys.argv) < 2:
-        print("Usage: python script.py <video_path> [--test]")
-        sys.exit(1)
-
-    video_path = sys.argv[1]
-    test_mode = '--test' in sys.argv
-    frames_info = process_video(video_path, test_mode)
-    print("Finished processing video")
-
-if __name__ == "__main__":
-    main()
+    return frames_info
