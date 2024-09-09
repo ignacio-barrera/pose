@@ -15,7 +15,7 @@ COPY requirements.txt /app/
 COPY src/ /app/
 
 # Instalar las dependencias con un tiempo de espera aumentado
-RUN pip install --default-timeout=1000 --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
 
 # Exponer el puerto en el que correrá la API
 EXPOSE 5000
