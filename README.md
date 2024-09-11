@@ -5,6 +5,11 @@
 docker build -t blazepose-api .
 docker run -p 5000:5000 blazepose-api
 
+#### Para el Docker local
+
+docker run -d --name vision-api --network test -p 3001:3001 vision-api
+docker run -d --name blazepose-api-local --network test -p 5000:5000 blazepose-api-local
+
 ### Para hacer pruebas usar Postman
 
 POST http://localhost:5000/process-video
