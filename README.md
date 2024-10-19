@@ -1,24 +1,13 @@
-## API algoritmo de pose
+# API algoritmo de pose
 ---
-### Para correr usar Docker
+Este repositorio contiene una API que recibe un video, el cual es procesado con BlazePose. Como resultado, se devuelve la información de cada frame con las posiciones de los tres keypoints correspondientes al pie, proporcionados por BlazePose. Para obtener más información sobre BlazePose, haga clic [aquí](https://ai.google.dev/edge/mediapipe/solutions/vision/pose_landmarker).
+
+## Comandos útiles
+### Para correr Docker
 
 docker build -t blazepose-api .
-docker run -p 5000:5000 blazepose-api
+docker run --name blazepose-api -p 5000:5000 blazepose-api
 
-#### Para el Docker local
-
+### Para Docker local
 docker run -d --name vision-api --network test -p 3001:3001 vision-api
-docker run -d --name blazepose-api-local --network test -p 5000:5000 blazepose-api-local
-
-### Para hacer pruebas usar Postman
-
-POST http://localhost:5000/process-video
-
-Video Francisco {
-    "video_url": "https://mcp-wildsense.s3.us-east-2.amazonaws.com/videos/7/2024-03-15/11_28_22-player9.mp4"
-    https://mcp-wildsense.s3.us-east-2.amazonaws.com/videos/7/2024-03-15/11_28_22-player9.mp4
-}
-Video Fabian {
-    "video_url": "https://mcp-wildsense.s3.us-east-2.amazonaws.com/videos/7/2024-01-30/11_07_17-player1.mp4"
-    https://mcp-wildsense.s3.us-east-2.amazonaws.com/videos/7/2024-01-30/11_07_17-player1.mp4
-}
+docker run -d --name blazepose-api --network local -p 5000:5000 blazepose-api
