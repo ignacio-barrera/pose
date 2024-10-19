@@ -9,5 +9,4 @@ docker build -t blazepose-api .
 docker run --name blazepose-api -p 5000:5000 blazepose-api
 
 ### Para Docker local
-docker run -d --name vision-api --network test -p 3001:3001 vision-api
 docker run -d --name blazepose-api --network local -p 5000:5000 blazepose-api
