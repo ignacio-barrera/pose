@@ -123,7 +123,7 @@ def download_video(video_url):
 def process_video(video_url, test_mode=False):
     global Dx_left_s, Dy_left_s, Dx_right_s, Dy_right_s, left_rects_s, right_rects_s
     
-    clear_output_directory()  # Limpiar la salida antes de generar nuevos archivos
+    clear_output_directory()
     
     video_path = download_video(video_url)
     
@@ -184,7 +184,6 @@ def process_video(video_url, test_mode=False):
             right_foot_index_point = (int(right_foot_index.x * frame_width), int(right_foot_index.y * frame_height))
             right_ankle_point = (int(right_ankle.x * frame_width), int(right_ankle.y * frame_height))
 
-            # Calcular el punto central (promedio) de los tres puntos para cada pie
             left_center_point = (
                 int((left_heel_point[0] + left_foot_index_point[0] + left_ankle_point[0]) / 3),
                 int((left_heel_point[1] + left_foot_index_point[1] + left_ankle_point[1]) / 3)
@@ -194,12 +193,10 @@ def process_video(video_url, test_mode=False):
                 int((right_heel_point[1] + right_foot_index_point[1] + right_ankle_point[1]) / 3)
             )
 
-            # Dibujar la superficie del pie izquierdo y derecho, se unen los tres puntos del pie (polígono)
-            left_foot_color = (255, 0, 255)  # Color morado por defecto
-            right_foot_color = (255, 0, 255)  # Color morado por defecto
+            left_foot_color = (255, 0, 255)
+            right_foot_color = (255, 0, 255)
 
             if frame_idx == 0:
-                # Forzar la detección de una pisada en el primer frame
                 stepDetection = True
                 stepSide = 'Both'
 
@@ -235,7 +232,6 @@ def process_video(video_url, test_mode=False):
                 if stepDetection:
                     steps += 1
                     if test_mode:
-                        # Cambiar el color de la superficie si se detecta una pisada
                         left_foot_color = (0, 255, 0) if left_step else left_foot_color
                         right_foot_color = (0, 255, 0) if right_step else right_foot_color
 
@@ -244,14 +240,12 @@ def process_video(video_url, test_mode=False):
 
             if test_mode:
                 left_foot_points = np.array([left_heel_point, left_foot_index_point, left_ankle_point], np.int32)
-                cv2.fillPoly(frame, [left_foot_points], color=left_foot_color)  # Color según la detección de pasos
-
+                cv2.fillPoly(frame, [left_foot_points], color=left_foot_color)
                 right_foot_points = np.array([right_heel_point, right_foot_index_point, right_ankle_point], np.int32)
-                cv2.fillPoly(frame, [right_foot_points], color=right_foot_color)  # Color según la detección de pasos
+                cv2.fillPoly(frame, [right_foot_points], color=right_foot_color)
 
-                # Dibujar el punto central (promedio) del pie izquierdo y derecho
-                cv2.circle(frame, left_center_point, 5, (255, 255, 0), -1)  # Color amarillo
-                cv2.circle(frame, right_center_point, 5, (255, 255, 0), -1)  # Color amarillo
+                cv2.circle(frame, left_center_point, 5, (255, 255, 0), -1)
+                cv2.circle(frame, right_center_point, 5, (255, 255, 0), -1)
 
                 mp_drawing.draw_landmarks(frame, results.pose_landmarks, mp_pose.POSE_CONNECTIONS)
         
@@ -261,7 +255,6 @@ def process_video(video_url, test_mode=False):
             else:
                 cv2.putText(frame, 'No Step', (50, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2, cv2.LINE_AA)
 
-            # Guardar cada frame en un archivo
             frame_filename = os.path.join(output_directory_frames, f'frame_{frame_count:04d}.jpg')
             cv2.imwrite(frame_filename, frame)
 
@@ -294,13 +287,11 @@ def process_video(video_url, test_mode=False):
     if test_mode:
         out.release()
 
-    # Guardar el JSON con la información obtenida
     json_filename = './output/frames_info.json'
     create_directory('./output')
     with open(json_filename, 'w') as json_file:
         json.dump(frames_info, json_file, indent=4)
 
-    # Eliminar el archivo de video temporal
     if os.path.exists(video_path):
         os.remove(video_path)
 
