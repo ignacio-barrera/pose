@@ -11,7 +11,7 @@ import requests
 
 # Inicializar BlazePose
 mp_pose = mp.solutions.pose
-pose = mp_pose.Pose(static_image_mode=False, min_detection_confidence=0.5, min_tracking_confidence=0.5)
+pose = mp_pose.Pose(static_image_mode=False, smooth_landmarks=True, smooth_segmentation=True, min_detection_confidence=0.5, min_tracking_confidence=0.5, enable_segmentation=True)
 mp_drawing = mp.solutions.drawing_utils
 
 Dx_left_s, Dy_left_s, Dx_right_s, Dy_right_s = [], [], [], []
@@ -120,7 +120,7 @@ def download_video(video_url):
         shutil.copyfileobj(response.raw, f)
     return video_path
 
-def process_video(video_url, test_mode=False):
+def process_video(video_url, test_mode=False, segmentation_mode=False):
     global Dx_left_s, Dy_left_s, Dx_right_s, Dy_right_s, left_rects_s, right_rects_s
     
     clear_output_directory()
@@ -160,8 +160,19 @@ def process_video(video_url, test_mode=False):
         results = pose.process(frame_rgb)
         stepDetection = False
         stepSide = 'None'
-        left_position = None
-        right_position = None
+
+        if segmentation_mode and results.segmentation_mask is not None:
+            # Pinta el fondo de gris
+            # condition = np.stack((results.segmentation_mask,) * 3, axis=-1) > 0.5
+            # bg_image = np.zeros(frame.shape, dtype=np.uint8)
+            # bg_image[:] = (192, 192, 192)
+            # frame = np.where(condition, frame, bg_image)
+
+            # Pinta la persona de gris
+            condition = np.stack((results.segmentation_mask,) * 3, axis=-1) > 0.5
+            person_mask = np.zeros(frame.shape, dtype=np.uint8)
+            person_mask[:] = (192, 192, 192)
+            frame = np.where(condition, person_mask, frame)
 
         if results.pose_landmarks:
             # Puntos del pie izquierdo
