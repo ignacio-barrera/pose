@@ -5,6 +5,7 @@ import numpy as np
 import os
 import shutil
 import requests
+import base64
 
 # La flag test mode se utiliza para guardar los frames y video
 # en un directorio de salida para pruebas visuales
@@ -269,6 +270,14 @@ def process_video(video_url, test_mode=False, segmentation_mode=False):
             frame_filename = os.path.join(output_directory_frames, f'frame_{frame_count:04d}.jpg')
             cv2.imwrite(frame_filename, frame)
 
+        segmentation_mask_base64 = None
+        if results.segmentation_mask is not None:
+            mask = (results.segmentation_mask > 0.5).astype(np.uint8) * 255
+            if mask.shape[:2] != (frame_height, frame_width):
+                mask = cv2.resize(mask, (frame_width, frame_height), interpolation=cv2.INTER_NEAREST)
+            _, buffer = cv2.imencode('.png', mask)
+            segmentation_mask_base64 = base64.b64encode(buffer).decode('utf-8')
+
         frame_info = {
             'frame_index': frame_count,
             'stepDetection': stepDetection,
@@ -284,10 +293,12 @@ def process_video(video_url, test_mode=False, segmentation_mode=False):
                 'foot_index': right_foot_index_point,
                 'ankle': right_ankle_point,
                 'center': right_center_point
-            }
+            },
+            'segmentation_mask': segmentation_mask_base64
         }
-        frames_info.append(frame_info)
         
+        frames_info.append(frame_info)
+
         if test_mode:
             out.write(frame)
         frame_count += 1
