@@ -7,6 +7,11 @@ import shutil
 import requests
 import base64
 
+from dotenv import load_dotenv
+
+load_dotenv()
+token = os.getenv("BEARER_TOKEN")
+
 # La flag test mode se utiliza para guardar los frames y video
 # en un directorio de salida para pruebas visuales
 
@@ -116,7 +121,12 @@ def clear_output_directory():
 
 def download_video(video_url):
     video_path = "temp_video.mp4"
-    response = requests.get(video_url, stream=True)
+    headers = {
+        "Authorization": f"Bearer {token}"
+    }
+    response = requests.get(video_url, headers=headers, stream=True)
+    if response.status_code != 200:
+        raise Exception(f"Error al descargar el video: {response.status_code} - {response.text}")
     with open(video_path, 'wb') as f:
         shutil.copyfileobj(response.raw, f)
     return video_path
