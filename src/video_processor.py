@@ -22,6 +22,25 @@ last_step_left_bbox, last_step_right_bbox = None, None
 min_displacement = 10
 weights = [4, 2, 1]
 
+def clamp(v, lo, hi):
+    return max(lo, min(hi, v))
+
+def foot_roi_from_points(points, w, h, margin=80):
+    xs = [p[0] for p in points]
+    ys = [p[1] for p in points]
+    x0 = clamp(min(xs) - margin, 0, w-1)
+    y0 = clamp(min(ys) - margin, 0, h-1)
+    x1 = clamp(max(xs) + margin, 0, w-1)
+    y1 = clamp(max(ys) + margin, 0, h-1)
+    # asegurar tamaño mínimo
+    if x1 <= x0: x1 = clamp(x0 + 1, 0, w-1)
+    if y1 <= y0: y1 = clamp(y0 + 1, 0, h-1)
+    return int(x0), int(y0), int(x1), int(y1)
+
+def mask_to_base64_png(mask_u8):
+    _, buffer = cv2.imencode('.png', mask_u8)
+    return base64.b64encode(buffer).decode('utf-8')
+
 def step_criteria_advanced(index, Dx, Dy, left):
     global last_step_left_idx, last_step_right_idx, last_step_left_bbox, last_step_right_bbox
     if abs(Dx) < min_displacement and abs(Dy) < min_displacement:
@@ -116,9 +135,12 @@ def clear_output_directory():
 
 def download_video(video_url):
     video_path = "temp_video.mp4"
-    response = requests.get(video_url, stream=True)
+    response = requests.get(video_url, stream=True, timeout=(5, 60))
+    response.raise_for_status()
     with open(video_path, 'wb') as f:
-        shutil.copyfileobj(response.raw, f)
+        for chunk in response.iter_content(chunk_size=1024*1024):
+            if chunk:
+                f.write(chunk)
     return video_path
 
 def process_video(video_url, test_mode=False, segmentation_mode=False):
@@ -270,13 +292,37 @@ def process_video(video_url, test_mode=False, segmentation_mode=False):
             frame_filename = os.path.join(output_directory_frames, f'frame_{frame_count:04d}.jpg')
             cv2.imwrite(frame_filename, frame)
 
-        segmentation_mask_base64 = None
+        left_mask_b64 = None
+        right_mask_b64 = None
+        left_roi = None
+        right_roi = None
+
         if results.segmentation_mask is not None:
-            mask = (results.segmentation_mask > 0.5).astype(np.uint8) * 255
-            if mask.shape[:2] != (frame_height, frame_width):
-                mask = cv2.resize(mask, (frame_width, frame_height), interpolation=cv2.INTER_NEAREST)
-            _, buffer = cv2.imencode('.png', mask)
-            segmentation_mask_base64 = base64.b64encode(buffer).decode('utf-8')
+            # máscara binaria persona/fondo (igual que antes)
+            mask_full = (results.segmentation_mask > 0.5).astype(np.uint8) * 255
+            if mask_full.shape[:2] != (frame_height, frame_width):
+                mask_full = cv2.resize(mask_full, (frame_width, frame_height), interpolation=cv2.INTER_NEAREST)
+
+            # ROI pie izquierdo
+            lx0, ly0, lx1, ly1 = foot_roi_from_points(
+                [left_heel_point, left_foot_index_point, left_ankle_point],
+                frame_width, frame_height,
+                margin=80  # ajusta
+            )
+            left_roi_mask = mask_full[ly0:ly1+1, lx0:lx1+1]
+            left_mask_b64 = mask_to_base64_png(left_roi_mask)
+            left_roi = [lx0, ly0, int(lx1 - lx0 + 1), int(ly1 - ly0 + 1)]
+
+            # ROI pie derecho
+            rx0, ry0, rx1, ry1 = foot_roi_from_points(
+                [right_heel_point, right_foot_index_point, right_ankle_point],
+                frame_width, frame_height,
+                margin=80
+            )
+            right_roi_mask = mask_full[ry0:ry1+1, rx0:rx1+1]
+            right_mask_b64 = mask_to_base64_png(right_roi_mask)
+            right_roi = [rx0, ry0, int(rx1 - rx0 + 1), int(ry1 - ry0 + 1)]
+
 
         frame_info = {
             'frame_index': frame_count,
@@ -294,7 +340,10 @@ def process_video(video_url, test_mode=False, segmentation_mode=False):
                 'ankle': right_ankle_point,
                 'center': right_center_point
             },
-            'segmentation_mask': segmentation_mask_base64
+            'left_mask': left_mask_b64,
+            'left_roi': left_roi,
+            'right_mask': right_mask_b64,
+            'right_roi': right_roi
         }
         
         frames_info.append(frame_info)
