@@ -358,6 +358,9 @@ def process_video(video_url, test_mode=False, segmentation_mode=False):
     if test_mode:
         out.release()
 
+    if test_mode:
+        print(f'Total frames processed: {frame_count}, Total steps detected: {steps}')
+
     json_filename = './output/frames_info.json'
     create_directory('./output')
     with open(json_filename, 'w') as json_file:
